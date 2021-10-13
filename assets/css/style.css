@@ -6,6 +6,63 @@ body{
     line-height:24px;
     color:#333;
 }
+a{
+    color:#333;
+    text-decoration:none;
+    transition:.3s;
+}
+/* Button Css */
+.box-btn{
+    background-color: #ff3636;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    text-transform:capitalize;
+    font-size:18px;  
+    font-weight:500px;
+    position: relative;
+    transition:0.3s;
+}
+.box-btn:hover{
+    background-color: #333;
+    color: #fff;
+
+}
+.box-btn i{
+    position: absolute;
+    left: 3px;
+    top: 14px;
+    transition:0.3s;
+    opacity: 0;
+    visibility: hidden;
+}
+.box-btn:hover i{
+    left: 9px;
+    opacity: 1;
+    visibility: visible;
+}
+/* Header Css */
+.header-area{
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    padding: 20px 0;
+}
+.header-area a{
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight:700;
+    font-size: 15px;
+}
+.header-area .navbar-brand{
+    font-size: 30px;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+}
+.navbar-nav li a:hover{
+    color:tomato !important;
+}
 
 /* Banner Css  */
 .banner-area{
@@ -34,3 +91,25 @@ body{
     z-index: -2;
 
 }
+.banner-content{
+    color: #fff;
+    position: absolute;
+    left:50%;
+    top:50%;
+    text-align:center;
+    width: 100%;
+    transform:translate(-50%,-50%);   
+}
+.banner-content h1{
+    text-transform:uppercase;
+    font-weight:800;
+    font-size:34px;
+}
+.banner-content p{
+    text-transform:capitalize;
+    font-size:18px;
+}
+.banner-content a{
+    margin-top:25px;
+}
+
