@@ -74,6 +74,7 @@ a{
 /* Section-title CSS */
  .section-title{
      text-align: center;
+     margin-bottom: 80px;
  }
 .section-title h2{
     font-size: 40px;
@@ -182,6 +183,42 @@ a{
 /* Services Css */
 .services-area{
     background-color: #f6f6f6;
+}
+.single-service{
+    text-align:center;
+    background-color: #fff;
+    padding:40px 20px;
+    border:1px solid #f2f2f2;
+    margin-top: 30px;
+    position: relative;
+}
+.single-service span{
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    color: #f2f2f2;
+    font-size: 70px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+.single-service i{
+    background-color: #ff3636;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 5px;
+   font-size: 25px;
+   transition:0.3s;
+}
+.single-service h4{
+    margin: 15px 0;
+    text-transform: capitalize;
+    font-size:30px;
+    font-weight:600;
+}
+.single-service:hover i{
+    border-radius: 50%;
 }
 /* About Css */
 /* About Css */
