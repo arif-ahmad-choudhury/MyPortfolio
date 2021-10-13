@@ -11,6 +11,14 @@ a{
     text-decoration:none;
     transition:.3s;
 }
+/* Margin & Padding */
+.pt-80{
+    padding-top: 80px;
+}
+.pb-80{
+    padding-bottom: 80px;
+}
+
 /* Button Css */
 .box-btn{
     background-color: #ff3636;
@@ -112,4 +120,40 @@ a{
 .banner-content a{
     margin-top:25px;
 }
-
+/* About Css */
+.about-content h4{
+    font-size:30px;
+    text-transform:capitalize;
+    font-weight:700;
+    color:#ff3636;
+}
+.about-content h5{    
+    text-transform:capitalize;
+   margin-bottom: 30px;
+}
+.about-content ul{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+.about-content ul li{
+   margin-bottom: 5px;
+}
+.about-content ul li i{ 
+    color:#ff3636;
+}
+.about-content a{
+   margin-top:30px;
+}
+/* About Css */
+/* About Css */
+/* About Css */
+/* About Css */
+/* About Css */
+/* About Css */
+/* About Css */
+/* About Css */
+/* About Css */
+/* About Css */
+/* About Css */
+/* About Css */
