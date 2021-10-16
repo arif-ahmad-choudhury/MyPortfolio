@@ -351,7 +351,62 @@ a {
   .single-counter p {
     text-transform: capitalize;
   }
-/* About Css */
+/* Timeline CSS */
+
+.timeline {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  .timeline:after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 100%;
+    background-color: #ff3636;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+  }
+  .timeline li {
+    display: table;
+    clear: both;
+    position: relative;
+  }
+  
+  .timeline-box {
+    border: 2px solid #ff3636;
+    padding: 20px;
+    width: 45%;
+    text-align: right;
+  }
+  .timeline li:nth-child(even) .timeline-box {
+    float: right;
+    text-align: left;
+  }
+  .timeline li:after {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #ff3636;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .timeline-box span {
+    font-size: 20px;
+    color: #ff3636;
+  }
+  .timeline-box h4 {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  
 /* About Css */
 /* About Css */
 /* About Css */
