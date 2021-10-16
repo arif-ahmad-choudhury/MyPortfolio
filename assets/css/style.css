@@ -277,7 +277,7 @@ a {
     transform: scale(0) rotate(0);
 }
 
-.single-project:hover,
+.single-project:hover
 .project-hover {
     opacity: 1;
     visibility: visible;
