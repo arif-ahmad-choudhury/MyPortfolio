@@ -324,12 +324,33 @@ a {
     font-weight: 400;
 }
 
+/* Counter Css */
 
-
-
-
-
-/* About Css */
+.counter-area {
+    background-color: #333;
+  }
+  .counter-area .section-title {
+    color: #fff;
+  }
+  .single-counter {
+    color: #fff;
+    text-align: center;
+  }
+  .single-counter i {
+    background-color: #ff3636;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+  }
+  .single-counter h4 {
+    font-size: 40px;
+    margin: 10px 0;
+    font-weight: 700;
+  }
+  .single-counter p {
+    text-transform: capitalize;
+  }
 /* About Css */
 /* About Css */
 /* About Css */
