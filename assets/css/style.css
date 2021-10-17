@@ -617,4 +617,75 @@ a {
   text-transform: capitalize;
   font-weight: 700;
 }
-/* About Css */
+/* Contact CSS */
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.contact-form input[type="submit"] {
+  background-color: #ff3636;
+  border: 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.contact-form input[type="submit"]:hover {
+  background-color: #333;
+}
+.contact-address ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.contact-address ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  border-bottom: 1px dashed #ddd;
+  padding-bottom: 12px;
+}
+.contact-address ul li:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+.contact-icon {
+  margin-right: 35px;
+  position: relative;
+  margin-left: 20px;
+}
+.contact-icon:before {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-color: #ff3636;
+  transform: rotate(45deg);
+  z-index: -1;
+  text-align: center;
+  left: -12px;
+  top: -7px;
+}
+.contact-icon i {
+  color: #fff;
+}
+.contact-address ul li h4 {
+  text-transform: lowercase;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 5px;
+}
+.contact-address ul li h4 span {
+  display: block;
+  font-size: 22px;
+  margin-bottom: 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
