@@ -524,6 +524,72 @@ a {
   right: 0;
   bottom: 0;
 }
-/* About Css */
+
+/* Blog CSS */
+.blog-area {
+  background-color: #f6f6f6;
+}
+
+.single-blog {
+  border: 1px solid #f2f2f2;
+  background-color: #fff;
+}
+.single-blog img {
+  width: 100%;
+  transition: 0.3s;
+}
+.blog-content {
+  padding: 20px;
+}
+.blog-content h4 {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.blog-content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+.blog-content ul li {
+  display: inline-block;
+  position: relative;
+  margin-right: 15px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-style: italic;
+}
+.blog-content ul li:after {
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 5px;
+  background-color: #333;
+  top: 10px;
+  left: 57px;
+}
+.blog-content ul li:last-child:after {
+  display: none;
+}
+.blog-content ul li a {
+  transition: 0.3s;
+}
+.blog-content ul li a:hover {
+  color: #ff3636;
+}
+.blog-content h4 a {
+  transition: 0.3s;
+}
+.blog-content h4 a:hover {
+  color: #ff3636;
+}
+.single-blog:hover .blog-img img {
+  transform: rotate(5deg) scale(1.1);
+}
+.blog-img {
+  overflow: hidden;
+}
 /* About Css */
 /* About Css */
