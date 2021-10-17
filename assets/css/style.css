@@ -465,7 +465,65 @@ a {
     background-color: tomato !important;
   }
   
-/* About Css */
+/* Price CSS */
+.price-area {
+  background-color: #f6f6f6;
+}
+
+.single-price {
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 40px 20px;
+  position: relative;
+}
+.single-price h5 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 26px;
+}
+.single-price h2 {
+  font-weight: 800;
+  font-size: 56px;
+  margin: 20px 0;
+}
+.single-price ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+.single-price ul li {
+  border-bottom: 1px dashed #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.single-price ul li:last-child {
+  border-bottom: 0;
+}
+
+.single-price::before,
+.single-price::after {
+  position: absolute;
+  content: "";
+  background-color: #ff3636;
+  width: 3px;
+  height: 0;
+  transition: 0.3s;
+}
+.single-price::before {
+  left: 0;
+  top: 0;
+}
+.single-price:hover:before,
+.single-price:hover:after {
+  height: 100%;
+}
+.single-price::after {
+  right: 0;
+  bottom: 0;
+}
 /* About Css */
 /* About Css */
 /* About Css */
