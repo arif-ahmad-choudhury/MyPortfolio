@@ -1,0 +1,294 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .navbar-light .navbar-nav .nav-link {        
+        text-align: center;       
+    }
+    .navbar-nav {    
+        background: #000;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.5);
+        border-color: rgba(0,0,0,.1);
+        background: rgb(241, 241, 241);
+    }
+    .navbar-light .navbar-toggler-icon {       
+        background: url(../img/scrollTop.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+    }
+    .banner-text {       
+        padding-top: 130px;
+        padding-bottom: 140px;      
+    }
+    .about-text h2 {       
+        text-align: center;
+        padding-top: 20px;
+    }
+    .about-text p {              
+        padding-bottom: 10px;
+    }
+    .about-text a {              
+        width:100%;
+        text-align: center;
+    }
+    #video-part {       
+        padding: 100px 0;
+    }
+    .service-text {
+        padding-top: 20px;
+    }
+    .project-bottom a {
+        width:100%;
+    }
+    .peolpeSay-arrow-left{
+        display: none !important;
+    }
+    .peolpeSay-arrow-right{
+        display: none !important;
+    }
+    .contact-left a{
+        width:100%;
+        text-align: center;
+    }
+    
+    .contact-right h3 {        
+        padding-top: 35px;
+        text-align: center; 
+    }
+    .footer-top-left p {          
+        margin-left: 90px 0;
+     
+    }
+   .footer-top-middle p {          
+       margin-right: 40px;
+   }
+   .footer-top-middle,.footer-top-right h4{
+       margin-right: 70px;
+   }
+    .footer-top-right input{      
+       margin-left: 70px;
+   }
+   .footer-top-right button {      
+    margin: 0 auto;
+
+   }
+   .footer-bottom-left ul li a{      
+    font-size: 10px;
+}
+.footer-bottom-right p{      
+    font-size: 10px;
+}
+  
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .navbar-light .navbar-nav .nav-link {        
+        text-align: center;       
+    }
+    .navbar-nav {    
+        background: #000;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.5);
+        border-color: rgba(0,0,0,.1);
+        background: rgb(241, 241, 241);
+    }
+    .navbar-light .navbar-toggler-icon {       
+        background: url(../img/scrollTop.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+    }
+    .banner-text {       
+        padding-top: 130px;
+        padding-bottom: 140px;      
+    }
+    .about-text h2 {       
+        text-align: center;
+        padding-top: 20px;
+    }
+    .about-text p {              
+        padding-bottom: 10px;
+    }
+    .about-text a {              
+        width:100%;
+        text-align: center;
+    }
+    .about-text a {              
+        width:100%;
+        text-align: center;
+    }
+    #video-part {       
+        padding: 100px 0;
+    }
+    .service-text {
+        padding-top: 20px;
+    }  
+    .project-bottom a {
+        width:100%;
+    }
+    .peolpeSay-arrow-left{
+        top: 83%;
+        left:5%;
+    }
+    .peolpeSay-arrow-right{
+        top: 83%;
+        right:3%;
+    } 
+    .contact-left a{
+        width:100%;
+        text-align: center;
+    }
+    
+    .contact-right h3 {        
+        padding-top: 35px;
+        text-align: center; 
+    }
+    .footer-top-left img { 
+        margin-right:128px;            
+     }
+    .footer-top-middle,.footer-top-right h4 { 
+        margin-right:128px;            
+     }
+     .footer-top-right input { 
+        margin-left:40px;            
+     }
+     .footer-top-right ul{ 
+        margin-right:80px;            
+     }
+    .footer-bottom-left ul li a{      
+        font-size: 10px;
+    }
+    .footer-bottom-right p{      
+        font-size: 10px;
+    }
+
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .navbar-light .navbar-nav .nav-link {        
+        text-align: center;       
+    }
+    .navbar-nav {    
+        background: rgb(49, 49, 49);
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.5);
+        border-color: rgba(0,0,0,.1);
+        background: rgb(241, 241, 241);
+    }
+    .navbar-light .navbar-toggler-icon {       
+        background: url(../img/scrollTop.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+    }
+    .banner-text {       
+        padding-top: 130px;
+        padding-bottom: 140px;      
+    }
+    .about-text h2 {       
+        text-align: center;
+        padding-top: 20px;
+    }
+    .about-text p {              
+        padding-bottom: 10px;
+    }
+    .about-text a {              
+        width:100%;
+        text-align: center;
+    }
+    #video-part {       
+        padding: 100px 0;
+    }
+    .service-text {
+        padding-top: 20px;
+    }
+    .team-text-bottom a {     
+        display: block;
+        width: 100%;
+    }
+    .project-bottom a {
+        width:100%;
+    }
+    .peolpeSay-arrow-left{
+        top: 80%;
+        left:14%;
+    }
+    .peolpeSay-arrow-right{
+        top: 80%;
+        right:12%;
+    }
+    .contact-left a{
+        width:100%;
+        text-align: center;
+    }
+    
+    .contact-right h3 {        
+        padding-top: 35px;
+        text-align: center; 
+    }
+    .footer-top-left img {      
+        padding-left: 5px;
+    }
+    .footer-top-left p {      
+        margin-left: 41px;
+    }
+    .footer-top-middle,.footer-top-right h4 { 
+        padding-top:20px;            
+     }
+   .footer-top-middle p { 
+       margin-top: 8px;    
+        margin-left: 41px;
+    }
+   
+    .footer-top-right input {      
+        margin-left: 158px;
+    }
+   
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .peolpeSay-arrow-left{
+        top: 80%;
+        left:14%;
+    }
+    .peolpeSay-arrow-right{
+        top: 80%;
+        right:12%;
+    }
+    .footer-top-left p {          
+         margin-left: 90px 0;
+      
+     }
+    .footer-top-middle p {          
+        margin-right: 40px;
+    }
+    .footer-top-middle,.footer-top-right h4{
+        margin-right: 70px;
+    }
+     .footer-top-right button {      
+        margin-left: 15px;
+    }
+     .footer-top-right ul li{      
+        margin-right: 0px;
+    }
+
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .peolpeSay-arrow-left{
+        top: 77%;
+        left:23%;
+    }
+    .peolpeSay-arrow-right{
+        top: 77%;
+        right:23%;
+    }
+ }
