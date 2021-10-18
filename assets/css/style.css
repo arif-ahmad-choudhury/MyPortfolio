@@ -524,6 +524,138 @@ a {
   right: 0;
   bottom: 0;
 }
+/* Project part css start */
+#project{
+  padding: 70px 0;
+}
+.project-top-left{
+   padding-bottom: 70px;
+}
+.project-top-left h3{
+   font-size: 22px;
+   font-family: 'Playfair Display', serif;
+   font-weight: bold;
+   color: #413d4b;
+   text-transform:uppercase;
+ 
+}
+.project-top-right p{
+   font-size: 14px;
+   font-family: 'Playfair Display', serif;
+   font-weight:300;
+   color: #413d4b;
+   text-transform:capitalize;
+   text-align: center;
+   
+}
+.project-bottom a{
+   font-family: 'Roboto', sans-serif;
+   font-size:14px;
+   font-weight:700;
+   color:#05CEC4; 
+   border: 1px solid #07c8c0;
+   padding: 15px 30px;
+   text-decoration: none; 
+   text-transform:uppercase;
+   margin-top: 10px;
+   display:inline-block; 
+}
+/* Project part css end */
+
+/* peopleSay-part css start */
+#peopleSay{
+   background:url(img/peopleSay-bg.jpg);
+   background-repeat:no-repeat;
+   background-position:center;
+   background-size:cover;
+   padding: 70px 0;
+   position:relative;
+
+}
+#peopleSay::after{   
+   position:absolute; 
+   content: ""; 
+   background: rgba(24, 17, 58,0.7);
+   width:100%;
+   height:100%;
+   top:0;
+   left:0;
+}
+.peopleSay-slider-text{
+   z-index:100;
+   position: relative;
+   color: #ffffff;   
+}
+.peopleSay-slider-text i{
+   font-size:30px;
+   padding-bottom: 45px;
+}
+.peopleSay-slider-text p{
+   font-size:16px;
+   font-family: 'Playfair Display', serif;
+  line-height: 28px;
+  padding: 0px 80px;
+  padding-bottom: 50px;
+}
+.peopleSay-slider-text h4{
+   font-family: 'Roboto', sans-serif;
+   font-size:14px;
+   font-weight:700;
+   text-transform: uppercase;
+}
+.peopleSay-slider-text h5{
+   font-family: 'Roboto', sans-serif;
+   font-size:14px;
+   font-weight:300;
+   padding-bottom: 45px;
+   text-transform: uppercase;
+}
+
+.peolpeSay-slider-img{
+   position: relative;
+   z-index: 100;
+}
+.peolpeSay-slider-img img{
+   width:80px;
+   height: 80px;    
+   border-radius: 50%;
+}
+.slider-img{
+width:500px;
+margin: 0 auto;
+position: relative;
+   z-index: 100;
+}
+.text-slider{
+   position: relative;
+   z-index: 100;
+}
+
+.peolpeSay-arrow-left{
+   position: absolute;
+   z-index: 100;
+   font-size:20px;   
+   color: #ffffff;
+   top:79%;
+   left: 30%;
+   cursor: pointer;
+}
+.peolpeSay-arrow-right{
+   position: absolute;
+   z-index: 100;
+   font-size:20px;    
+   color: #ffffff;
+   top:79%;
+   right:30%;
+   cursor:pointer;
+}
+
+.slick-center .peolpeSay-slider-img img{
+   border:5px solid #05CEC4;
+   transform: rotate(360deg);
+   transition: 1s;
+}
+/* peopleSay-part css end */
 
 /* Blog CSS */
 .blog-area {
