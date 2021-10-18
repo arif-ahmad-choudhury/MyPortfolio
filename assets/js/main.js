@@ -8,7 +8,7 @@ $(document).ready(function () {
   });
 
   // Counter Active
-  $(".counterup").counterUp();
+  $(".count").counterUp();
 
   // Slick JS
   $('.testimonials').slick({
