@@ -1,11 +1,11 @@
 $(document).ready(function () {
   // Magnific Popup Active
-  $(".project-popup").magnificPopup({
-    type: "image",
-    gallery: {
-      enabled: true,
-    },
-  });
+  // $(".project-popup").magnificPopup({
+  //   type: "image",
+  //   gallery: {
+  //     enabled: true,
+  //   },
+  // });
 
   // Venobox 
 
@@ -39,11 +39,11 @@ $(document).ready(function () {
   // Counter Active
   $(".count").counterUp();
 
-  // Slick JS
-  $('.testimonials').slick({
-    arrows: false,
-    dots: true,
-    autoplay: true,
-    loop: true
-  });
+  // // Slick JS
+  // $('.testimonials').slick({
+  //   arrows: false,
+  //   dots: true,
+  //   autoplay: true,
+  //   loop: true
+  // });
 });
