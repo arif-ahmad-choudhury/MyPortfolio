@@ -1,12 +1,4 @@
 $(document).ready(function () {
-  // Magnific Popup Active
-  // $(".project-popup").magnificPopup({
-  //   type: "image",
-  //   gallery: {
-  //     enabled: true,
-  //   },
-  // });
-
   // Venobox 
 
   $('.venobox').venobox({
