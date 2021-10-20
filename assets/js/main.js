@@ -2,15 +2,15 @@ $(document).ready(function () {
   // Venobox 
 
   $('.venobox').venobox({
-    framewidth : '550px', 
-    frameheight: '400px', 
-    border     : '10px',   
-    bgcolor    : '#ffffff',
-    share      : ['facebook', 'twitter','linkedin','download']
-  }); 
-   // PeopleSay Slider
+    framewidth: '550px',
+    frameheight: '400px',
+    border: '10px',
+    bgcolor: '#ffffff',
+    share: ['facebook', 'twitter', 'linkedin', 'download']
+  });
+  // PeopleSay Slider
 
-   $('.text-slider').slick({
+  $('.text-slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
@@ -29,5 +29,5 @@ $(document).ready(function () {
     focusOnSelect: true
   });
   // Counter Active
-  $(".count").counterUp(); 
+  $(".count").counterUp();
 });
