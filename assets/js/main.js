@@ -37,13 +37,5 @@ $(document).ready(function () {
     focusOnSelect: true
   });
   // Counter Active
-  $(".count").counterUp();
-
-  // // Slick JS
-  // $('.testimonials').slick({
-  //   arrows: false,
-  //   dots: true,
-  //   autoplay: true,
-  //   loop: true
-  // });
+  $(".count").counterUp(); 
 });
