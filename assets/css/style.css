@@ -589,6 +589,13 @@ a {
 /* Project part css end */
 
 /* peopleSay-part css start */
+.peopleSay-title{
+  position: relative;
+  z-index: 1;
+}
+.peopleSay-title h2,p{
+ color: #fff;
+}
 #peopleSay {
   background: url(../img/peopleSay-bg.jpg);
   background-repeat: no-repeat;
