@@ -206,6 +206,9 @@ a {
 .about-content a {
   margin-top: 30px;
 }
+.about-content p {
+ color: #333;
+}
 
 /* Services Css */
 .services-area {
