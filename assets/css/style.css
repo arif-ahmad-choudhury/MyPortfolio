@@ -251,6 +251,9 @@ a {
   font-size: 30px;
   font-weight: 600;
 }
+.single-service p{
+  color:#333;
+}
 
 .single-service:hover i {
   border-radius: 50%;
