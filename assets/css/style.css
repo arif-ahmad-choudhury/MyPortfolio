@@ -598,6 +598,9 @@ a {
 .blog-content {
   padding: 20px;
 }
+.blog-content p {
+  color: #333;
+}
 
 .blog-content h4 {
   font-size: 24px;
