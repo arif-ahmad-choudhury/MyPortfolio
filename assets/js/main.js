@@ -6,7 +6,7 @@ $(document).ready(function () {
     frameheight: '400px',
     border: '10px',
     bgcolor: '#ffffff',
-    share: ['facebook', 'twitter', 'linkedin', 'download']
+    share: ['linkedin', 'download']
   });
   // PeopleSay Slider
 
