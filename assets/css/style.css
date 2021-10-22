@@ -87,7 +87,9 @@ a {
   text-align: center;
   margin-bottom: 80px;
 }
-
+.section-title p{
+  color: #333;
+}
 .section-title h2 {
   font-size: 40px;
   text-transform: capitalize;
@@ -352,6 +354,9 @@ a {
   font-size: 30px;
   font-weight: 600;
   margin: 10px 0;
+}
+.timeline-box p{
+  color: #333;
 }
 
 
